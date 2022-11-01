@@ -2,7 +2,7 @@
 # Business Card Generator
 
 A web application that generates a QR Code that redirects directly to a business card with the user's name, description and contacts.
-## Stack utilizada
+## Stacks
 
 **Front-end:** React, TailwindCSS, Axios, React Router
 
