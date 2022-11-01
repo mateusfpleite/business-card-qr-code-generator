@@ -41,9 +41,3 @@ Install the project dependencies with npm
   *after that you should use only npm start
 ```
 This project runs inside a Docker container, so these commands will be enough to install both backend and frontend dependencies and get the application working correctly.    
-## Roadmap
-
-- Melhorar o suporte de navegadores
-
-- Adicionar mais integrações
-
