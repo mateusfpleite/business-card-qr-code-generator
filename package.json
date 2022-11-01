@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "docker": "docker-compose up --build --remove-orphans --force-recreate -d",
-    "init": "npm run docker && cd backend && npm run db:start",
+    "init": "npm run docker && cd backend && npm install && npm run db:start",
     "start": "npm run docker",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize-cli": "^6.5.2"
+  }
 }
