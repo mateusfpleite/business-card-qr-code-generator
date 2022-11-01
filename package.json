@@ -1,0 +1,15 @@
+{
+  "name": "buzzvel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker-compose up --build --remove-orphans --force-recreate -d",
+    "init": "npm run docker && cd backend && npm run db:start",
+    "start": "npm run docker",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
