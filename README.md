@@ -37,7 +37,7 @@ POST /card/
 Install the project dependencies with npm
 
 ```bash
-  npm install init - first installation with DB creation
+  npm run init - first installation with DB creation
   *after that you should use only npm start
 ```
 This project runs inside a Docker container, so these commands will be enough to install both backend and frontend dependencies and get the application working correctly.    
