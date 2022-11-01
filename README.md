@@ -45,3 +45,7 @@ Install the project dependencies with npm
   *after that you should use only npm start
 ```
 This project runs inside a Docker container, so these commands will be enough to install both backend and frontend dependencies and get the application working correctly.    
+
+## Using the application
+
+If the installation was successful, just access port 3000 of localhost to see the project running normally. The backend and the database will be allocated respectively to ports 3001 and 3306.
