@@ -31,11 +31,6 @@ POST /card/
 | `name`      | `string` | **Required**. User's name|
 
 
-## Environment Variables 
-
-For the project to run properly locally, it is necessary to set the environment variables in the frontend and backend folders. In each of them there is a .env.example file with default values that can be used. If you don't wish to make any changes, just remove the ".example" from each file's name and that will be enough for the project to work properly.
-
-
 ## Install
 
 Install the project dependencies with npm
