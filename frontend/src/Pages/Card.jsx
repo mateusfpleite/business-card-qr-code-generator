@@ -28,10 +28,10 @@ const Card = () => {
         <h1 className="text-xl font-semibold">Contact</h1>
         <div className="flex space-x-3 pb-3">
             <a href={linkedin} target="_blank" rel="noreferrer">
-            <img src="./linkedin.png" alt="linkedin-logo" ></img>
+            <img src="/linkedin.png" alt="linkedin-logo" ></img>
             </a>
             <a href={github} target="_blank" rel="noreferrer">
-            <img src="./github.png" alt="linkedin-logo" ></img>
+            <img src="/github.png" alt="linkedin-logo" ></img>
             </a>
         </div>
         </div>
